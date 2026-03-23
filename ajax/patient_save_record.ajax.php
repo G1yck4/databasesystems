@@ -2,7 +2,7 @@
 require_once "../controllers/patientregistry.controller.php";
 require_once "../models/patientregistry.model.php";
 
-class patient{
+class Patient{
   public $trans_type; 
   public $encodedby;
   public $firstname;

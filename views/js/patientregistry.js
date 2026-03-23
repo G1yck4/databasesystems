@@ -130,7 +130,7 @@ $(function () {
         patient.append("nationality", nationality);
         patient.append("gender", gender);
         patient.append("birthdate", birthdate);
-
+        patient.append("patientid", patientid);
         patient.append("mobile", mobile);
         patient.append("alternate", alternate);
         patient.append("email", email);
