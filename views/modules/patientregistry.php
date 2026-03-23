@@ -4,6 +4,8 @@
             <div class="card">
             <div
                 class="card-header sticky-element bg-label-secondary d-flex justify-content-sm-between align-items-sm-center flex-column flex-sm-row">
+                <input type="hidden" name="encodedby" id="encodedby" value="<?php echo $_SESSION['empid']; ?>">
+<input type="hidden" name="trans_type" id="trans_type" value="New">
                 <h5 class="card-title mb-sm-0 me-2">PATIENT REGISTRY</h5>
                 <input type="hidden" id="patientid" name="patientid" value="">
             </div>

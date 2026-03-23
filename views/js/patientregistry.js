@@ -32,8 +32,6 @@ $(function () {
             { id: "#firstname", label: "First Name" },
             { id: "#lastname", label: "Last Name" },
             { id: "#mi", label: "Middle Initial" },
-            { id: "#birthdate", label: "Date of Birth" },
-            { id: "#gender", label: "Gender" }
         ];
 
         let emptyFields = [];
